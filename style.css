@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root{
+  --CURSOR-TYPE: pointer;
+}
+
+
+.flex_stuff{
+  display: flex;
+  margin-left: 8px;
+  margin-top: 18px;
+  gap: 20px;
+}
+
+.rock{
+  border: 2px solid white;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: var(--CURSOR-TYPE);
+}
+
+.paper{
+  border: 2px solid white;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: var(--CURSOR-TYPE);
+}
+
+.sciccors{
+  border: 2px solid white;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: var(--CURSOR-TYPE);
+}
+
+.wins-losses-ties{
+  display: flex;
+  gap: 8px;
+  color: white;
+  margin-left: 8px;
+  margin-top: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button{
+  padding: 8px;
+  margin-left: 8px;
+  margin-top: 40px;
+  width: 100px;
+  cursor: var(--CURSOR-TYPE);
+}
+
+#button_clar{
+  padding: 8px;
+  margin-left: 8px;
+  margin-top: 12px;
+  width: 100px;
+  cursor: var(--CURSOR-TYPE);
+}
+
+#display{
+  margin-left: 8px;
+  margin-top: 40px;
+  color: yellow;
+  cursor: var(--CURSOR-TYPE);
+}
+
+.display-all{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 180px;
+  height: 40px;
+  display: none;
+  margin-top: 18px;
+  margin-left: 8px;
+}
+
+
+.display-all .p{
+  display: flex;
+  gap: 12px;
+}
+
+.display-all .p span{
+  font-size: 12px;
+}
+
+#userClick{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#computerRandom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
